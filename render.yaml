@@ -28,7 +28,6 @@ services:
   - type: web
     name: schooldesk-frontend
     env: static
-    region: singapore
     plan: free
     buildCommand: npm install && npm run build
     staticPublishPath: dist
